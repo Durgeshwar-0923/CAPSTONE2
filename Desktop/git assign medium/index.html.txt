@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title> Assignment sample html</title>
+     <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <h1> hello, Minfy </h1>
+</body>
+</html>

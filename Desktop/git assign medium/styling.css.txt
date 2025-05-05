@@ -1,0 +1,12 @@
+body{
+font-family :Arial;
+text-align:center;
+}
+h1{
+color:red;
+}
+button{
+    font-size:2em;
+    border:none;
+    color:black;
+}
