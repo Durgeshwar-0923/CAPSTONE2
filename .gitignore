@@ -1,0 +1,56 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+artifacts/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment/config files
+.env
+*.env
+.env.*
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# MLflow logs & tracking runs (do not delete outputs/reports)
+mlruns/
+your_mlflow_tracking_uri_here/
+
+# CatBoost logs
+catboost_info/
+catboost_logs/
+
+# Uploaded raw datasets
+uploads/
+software_salaries_provided.csv
+testdatset.csv
+
+# Airflow artifacts
+airflow/airflow.db
+airflow/airflow-webserver.pid
+airflow/logs/
+
+# Test cache
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# Log and PID files
+*.log
+*.pid

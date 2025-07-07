@@ -1,0 +1,11 @@
+job_title,experience_level,employment_type,company_size,company_location,remote_ratio,salary_currency,years_experience,base_salary,bonus,stock_options,total_salary,salary_in_usd,currency,conversion_rate,stock_ratio,salary_bonus_interaction,normalized_role,bonus_ratio,usd_per_year_experience
+Data Analyst,Mid,Full-Time,Large,Germany,0,EUR,8,72000,5000,3000,80000,88000,EUR,1.1,0.041666666666666664,0.0,Data Analyst,0.06944444444444445,0.0
+Devops Engineer,Senior,Contract,Small,India,100,INR,10,135000,8000,5000,148000,17760,USD,0.12,0.037037037037037035,0.0,DevOps Engineer,0.05925925925925926,0.0
+Ml Engineer,Entry,Intern,Startup,United States,100,USD,1,55000,1000,500,56500,56500,USD,1.0,0.00909090909090909,0.0,Ml Engineer,0.01818181818181818,0.0
+Software Engr,Mid,Full-Time,Medium,UK,50,GBP,5,85000,7000,2000,94000,117500,GBP,1.25,0.023529411764705882,0.0,Software Engineer,0.08235294117647059,0.0
+Research Scientist,Executive,Full-Time,Large,Germany,0,EUR,15,150000,15000,10000,175000,192500,EUR,1.1,0.06666666666666667,0.0,Research Scientist,0.1,0.0
+Data Scientist,Senior,Contract,Medium,India,100,INR,12,140000,10000,8000,158000,18960,USD,0.12,0.05714285714285714,0.0,Data Scientist,0.07142857142857142,0.0
+Data Analyst,Entry,Part-Time,Small,France,20,EUR,2,42000,2000,500,44500,48950,EUR,1.1,0.011904761904761904,0.0,Data Analyst,0.047619047619047616,0.0
+Software Engr,Lead,Full-Time,Large,India,50,INR,9,165000,9000,6000,180000,21600,USD,0.12,0.03636363636363636,0.0,Software Engineer,0.05454545454545454,0.0
+Ml Engineer,Senior,Full-Time,Medium,United States,100,USD,7,125000,10000,9000,144000,144000,USD,1.0,0.072,0.0,Ml Engineer,0.08,0.0
+Devops Engineer,Mid,Contract,Medium,UK,0,GBP,6,78000,5000,4000,87000,108750,GBP,1.25,0.05128205128205128,0.0,DevOps Engineer,0.0641025641025641,0.0

@@ -1,0 +1,11 @@
+job_title,experience_level,employment_type,company_size,company_location,remote_ratio,salary_currency,years_experience,base_salary,bonus,stock_options,total_salary,salary_in_usd,currency,education,skills,conversion_rate,adjusted_total_usd
+Data Analyst,Mid,Full-time,Large,Germany,0,EUR,8,72000,5000,3000,80000,88000,EUR,,,1.1,0.016370770441293318
+DevOps Engineer,Senior,Contract,Small,India,100,INR,10,135000,8000,5000,148000,17760,USD,,,0.12,-0.20024297680990022
+ML Engineer,Entry,Intern,Startup,United States,100,USD,1,55000,1000,500,56500,56500,USD,,,1.0,-0.061199084728315846
+Software Engr,Mid,Full-time,Medium,UK,50,GBP,5,85000,7000,2000,94000,117500,GBP,,,1.25,0.11727069985425952
+Research Scientist,Executive,Full-time,Large,Germany,0,EUR,15,150000,15000,10000,175000,192500,EUR,,,1.1,0.29548335001988757
+Data Scientist,Senior,Contract,Medium,India,100,INR,12,140000,10000,8000,158000,18960,USD,,,0.12,-0.19700065194366237
+Data Analyst,Entry,Part-Time,Small,France,20,EUR,2,42000,2000,500,44500,48950,EUR,,,1.1,-0.08264123069313008
+Software Engr,Lead,Full-time,Large,India,50,INR,9,165000,9000,6000,180000,21600,USD,,,0.12,-0.19312160222575162
+ML Engineer,Senior,Full-time,Medium,United States,100,USD,7,125000,10000,9000,144000,144000,USD,,,1.0,0.15034444578077216
+DevOps Engineer,Mid,Contract,Medium,UK,0,GBP,6,78000,5000,4000,87000,108750,GBP,,,1.25,0.09295338847561929

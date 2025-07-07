@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Salary Predictions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f7faff;
+      margin: 0;
+      padding: 2rem;
+    }
+    h2 {
+      text-align: center;
+      color: #2b2d42;
+      margin-bottom: 2rem;
+    }
+    .table-wrapper {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #e0e0e0;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    th {
+      background-color: #f1f5f9;
+      color: #333;
+    }
+    .btn-group {
+      text-align: center;
+    }
+    .btn {
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      margin: 0 10px;
+      font-weight: 500;
+      transition: 0.3s ease;
+    }
+    .btn-download {
+      background: #00b894;
+      color: white;
+    }
+    .btn-download:hover {
+      background: #019875;
+    }
+    .btn-upload {
+      background: #0984e3;
+      color: white;
+    }
+    .btn-upload:hover {
+      background: #045fb4;
+    }
+  </style>
+</head>
+<body>
+  <h2>📊 Predicted Results using <em>{{ model_name }}</em></h2>
+
+  <div class="table-wrapper">
+    {% for table in tables %}
+      {{ table|safe }}
+    {% endfor %}
+  </div>
+
+  <div class="btn-group">
+    <a class="btn btn-download" href="/download/{{ result_file }}">⬇️ Download CSV</a>
+    <a class="btn btn-upload" href="/upload">🔁 Upload Another</a>
+  </div>
+</body>
+</html>
